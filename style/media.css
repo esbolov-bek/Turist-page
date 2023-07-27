@@ -1,0 +1,120 @@
+@media (max-width: 1200px){
+    .header{
+        margin-bottom: 470px;
+    }
+    .hero__title{
+        font-size: 68px;
+    }
+    .article-text::before{
+        width: 140px;
+        height: 140px;
+        font-size: 140px;
+    }
+    .article-text {
+        padding-left: 50px;
+        max-width: 50%;
+        margin-right: 0;
+    }
+    .article-img{
+        width: 45%;
+    }
+    .article-title{
+        font-size: 50px;
+    }
+    .article{
+        gap: 25px;
+    }
+}
+@media (max-width: 1100px){
+    .footer-nav-wrapper{
+        gap: 0;
+    }
+    .footer-nav + .footer-nav{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 920px){
+    .footer-row{
+        flex-direction: column-reverse;
+    }
+    .footer-nav-wrapper{
+        margin-bottom: 80px;
+    }
+}
+@media (max-width: 800px){
+    .header{
+        margin-bottom: 470px;
+    }
+    .nav-wrapper{
+        margin-bottom: 90px;
+    }
+    .nav, .account {
+        display: none;
+    }
+    .nav-button{
+        display: block;
+    }
+    .mobile-nav-active {
+        display: flex;
+    }
+    .hero__title{
+        font-size: 48px;
+    }
+    .hero__category::before{
+        width: 42px;
+    }
+    .hero__category{
+        font-size: 14px;
+        padding-left: 62px;
+    }
+}
+@media (max-width: 720px){
+    .article, .article:nth-child(even) {
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+    }
+    .footer-nav-wrapper{
+        margin: 0 auto;
+    }
+    .footer-copyright{
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .footer-nav{
+        text-align: center;
+    }
+    .article-text, .article-img{
+        max-width: 100%;
+    }
+    .article-img{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 75px;
+    }
+}
+@media (max-width: 550px){
+    .header{
+        margin-bottom: 330px;
+    }
+    .article-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .hero__title{
+        font-size: 44px;
+    }
+    .footer-nav-wrapper{
+        flex-direction: column;
+        justify-content: center;    
+        align-items: center;
+    }
+    .footer-nav + .footer-nav{
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+}
